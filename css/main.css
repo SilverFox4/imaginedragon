@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+}
+.container {
+    position: relative;
+    display: flex;
+    background-color: #770101;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    flex-wrap: nowrap;
+    color: white;
+}
+
+.logo {
+    height: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    display:flex;  
+    font-size: 20px;
+    gap: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    justify-content: center;
+    gap: 50px;
+    padding: 98px;
+}
+
+.footer {
+    gap: 20px;
+}
+
+/* saber más  */
+
+.about {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-inline: 200px;
+    gap: 100px; 
+
+    background-image:  url(../image/Banda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:local;
+    margin-bottom: 48px;
+}
+
+.text {
+    display:block;
+    line-height: 2;
+}
+
+/* Discográfía */
+
+.music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.disc {
+    margin-bottom: 195px;
+    margin-top: 70px;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+
+/* fotos */
+.img {
+    display: flex;
+    margin-inline: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fotos {
+    gap:20px;
+    justify-content: center;
+    height: 200px;
+    display: flex;
+}
+
+.video {
+    gap:20px;
+    justify-content: center;
+    height: 200px;
+    display: flex;
+    margin-bottom: 160px;
+}
+
+/* contacto*/
+.contact {
+    display: flex;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 30%;
+    margin-top: 300px;
+    gap: 30px;
+    margin-bottom: 345px;
+}
+
